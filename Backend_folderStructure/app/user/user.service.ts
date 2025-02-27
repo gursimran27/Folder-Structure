@@ -178,9 +178,9 @@ export const refreshToken = async (refreshtoken: string) => {
     refreshToken: tokens.refreshToken,
   });
 
-  console.log(userWithoutPassword);
+  // console.log(userWithoutPassword);
 
-  console.log(tokens);
+  // console.log(tokens);
 
   return tokens;
 };

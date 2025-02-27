@@ -80,7 +80,7 @@ const Navbar: React.FC = () => {
   const desktopLinks = useMemo(
     () => (
       <Box sx={{ display: "flex" }}>
-        {isLoggedIn && (
+        {/* {isLoggedIn && (
           <Button color="inherit" component={Link} to="/app/profile">
             Profile
           </Button>
@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
           <Button color="inherit" onClick={handleLogoutClick}>
             Logout
           </Button>
-        )}
+        )} */}
         {!isLoggedIn && (
           <Button color="inherit" component={Link} to="/auth/register">
             SignUp
